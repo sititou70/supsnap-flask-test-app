@@ -1,1 +1,1 @@
-docker run -it supsnap
+docker run --rm -it supsnap
