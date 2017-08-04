@@ -1,1 +1,1 @@
-docker build -t supsnap .
+docker-compose build
