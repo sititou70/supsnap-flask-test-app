@@ -6,5 +6,5 @@ while True:
         MySQLdb.connect(user="flask", passwd="pass", host="mysql")
         break
     except:
-        print("can't connect mysql, I'm waiting for it to ready...")
+        print("can't connect mysql, waiting for it to ready...")
         time.sleep(1)
